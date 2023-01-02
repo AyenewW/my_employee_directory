@@ -14,7 +14,7 @@ return (
 const styledEmployeePage ={
 //border: "5px solid #8BC34A",
 padding:"5px",
-   borderRadius:"5px",
+borderRadius:"5px",
 width:"50%",
 backgroundColor:"#B2EBF2",
  fontFamily:"strong",
