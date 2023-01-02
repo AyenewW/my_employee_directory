@@ -9,7 +9,7 @@ return props.Employee.map(({image,name,title},index) => {
     image={image}
     name={name}
     title={title}
-    onClick={()=>props.setEployeeDetail(props.Employee[index])} />
+    onClick={()=> props.setEmployeeDetail(props.Employee[index])} />
   )
 } )
 
