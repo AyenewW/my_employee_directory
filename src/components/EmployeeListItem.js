@@ -20,6 +20,7 @@
             };
 
             const styledEmployeeListItem={
+            cursor: 'pointer',
             boxShadow:"0px 15px 4px rgba(0,0,0,0.25)",
             width:'92%',
             padding: '5px',
