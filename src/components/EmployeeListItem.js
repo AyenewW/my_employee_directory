@@ -2,7 +2,7 @@
             return(
             <div style={styledEmployeeListItem} onClick={onClick} >
             <img  style={styledImage} src={image} alt={image} />
-            <div style={StyledContent}>
+            <div>
             <h3 style={{margin:"0"}}>{name}</h3>
             <p style={{margin :'0'}}>{title}</p>
             </div>
@@ -22,18 +22,12 @@
             const styledEmployeeListItem={
             cursor: 'pointer',
             boxShadow:"0px 15px 4px rgba(0,0,0,0.25)",
-            width:'92%',
+            width:'94%',
             padding: '5px',
             margin: '10px',
             marginBottom: '30px',
-            marginRight: '25px',
             backgroundColor: '#D5D5CF',
-
             borderRadius:"10px",
-            };
-
-            const StyledContent ={
-
             }
 
             export default EmployeeListItem;

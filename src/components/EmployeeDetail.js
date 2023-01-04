@@ -16,11 +16,11 @@
                 </div>
               </div>
             <div>
-
+             
             <ul style={styledUI}>
             <li>
             <h3>Call Office</h3>
-            <p>{EmployeeDetail.calloffice}</p>
+            <p>{EmployeeDetail.calloffice}{} </p>
             </li>
             </ul>
 
@@ -83,9 +83,10 @@
             };
 
             const styledEmployeeListItem={
-            border: "5px solid white",
+            //border: "5px solid white",
             padding:"5px",
             borderRadius:"5px",
+            borderBottom: '1px solid red',
             //   display:"flex",
             //  gap:"10px",
             //   margin:"5px",
@@ -100,14 +101,16 @@
             marginRight: '10px',
             padding:"5px",
             borderRadius:"5px",
+            cursor: 'pointer',
 
 
             }
 
             const styledUI = {
-            borderBottom: '1px solid red',
+            borderBottom: '5px solid white',
             padding: '3px',
             listStyle: 'none',
+            borderRadius:"5px",
             }
 
             export default EmployeeDetail;

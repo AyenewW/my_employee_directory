@@ -1,11 +1,13 @@
           import Header from "./Header";
           import EmployeeList from "./EmployeeList";
           import SearchBar from "./SearchBar";
+          //import {  } from '@fortawesome/react-fontawesome'
+          
           const HomePage = ({Employee,setEmployeeDetail}) => {
           return ( 
           <div style={styledHomePage}>
           <Header title="Employee Directory"/>
-          <SearchBar />
+          <SearchBar  />
           <EmployeeList Employee={Employee} setEmployeeDetail={setEmployeeDetail}/>
           </div> 
 
@@ -21,4 +23,5 @@
           fontFamily:"strong",
 
           }
+           
           export default HomePage;

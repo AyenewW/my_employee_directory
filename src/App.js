@@ -96,7 +96,7 @@
 
                     const[EmployeeDetail,setEmployeeDetail] =React.useState(Employee[0])
                     return (
-                    <div className='container'>
+                    <div className="App">
                     <Wrapper>
                     <HomePage Employee={Employee} setEmployeeDetail={setEmployeeDetail}/>
                     <EmployeePage Employee={Employee} EmployeeDetail={EmployeeDetail}/>
