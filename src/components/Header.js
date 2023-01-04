@@ -1,9 +1,9 @@
-            
-   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'         
+
+            import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'         
             const Header =(props)=> {
             return <div style={styledHeader}>
-              < FontAwesomeIcon icon={props.icon}/>
-                {props.title} </div>;
+            < FontAwesomeIcon icon={props.icon}/>
+              {props.title} </div>;
             };
             const styledHeader={
             display:'flex',

@@ -28,6 +28,7 @@
             marginBottom: '30px',
             backgroundColor: '#D5D5CF',
             borderRadius:"10px",
+            //border:'10px solid red',
             }
 
             export default EmployeeListItem;
