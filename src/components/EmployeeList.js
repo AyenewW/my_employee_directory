@@ -1,17 +1,17 @@
-        import EmployeeListItem from "./EmployeeListItem";
+import EmployeeListItem from "./EmployeeListItem";
 
-        const EmployeeList = (props) => {
+const EmployeeList = (props) => {
 
-        return props.Employee.map(({image,name,title},index) => {
-        return (
-        <EmployeeListItem
-        key={index}
-        image={image}
-        name={name}
-        title={title}
-        onClick={()=> props.setEmployeeDetail(props.Employee[index])} />
-        )
-        } )
+return props.Employee.map(({image,name,title},index) => {
+return (
+<EmployeeListItem
+key={index}
+image={image}
+name={name}
+title={title}
+onClick={()=> props.setEmployeeDetail(props.Employee[index])} />
+)
+} )
 
-        };
-        export default EmployeeList;
+};
+export default EmployeeList;

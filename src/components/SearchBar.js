@@ -1,26 +1,24 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-          const SearchBar = (props) => {
-          return ( 
-          <div>
-          <input style={styledsearchBar} type="text" placeholder="Search" />
-          < FontAwesomeIcon icon={props.icon}/>
-          </div>
 
-          )
+const SearchBar = (props) => {
+return ( 
+<div>
+<input style={styledsearchBar} type="text" placeholder="Search" />
 
-          }
+</div>
+)
 
-          const styledsearchBar ={
-          width:"95%",
-          border:" 1px solid #FAFAFA ",
-          borderRadius:"50px",
-          padding: "7px 0px",
-          margin: "2px 5px",
-          textAlign:"center",
-          cursor: 'pointer',
-          
+}
 
-          }
-          export default SearchBar;
+const styledsearchBar ={
+cursor: 'pointer',
+width: '97%',
+borderRadius: '5px',
+border: '1px solid #333',
+textAlign: 'center',
+padding: '7px 0px',
+margin: '2px 5px',
+
+}
+export default SearchBar;
 
 

@@ -1,9 +1,11 @@
-                .App
-                {
-                max-width: 1200px;
-                margin: 0 auto;
-                margin-top: 50px;
-                padding: 20px;
-                background-color: rgb(182, 184, 186);
-                border-radius: 100px;
-                }
+.App
+{
+max-width: 1200px; 
+margin: 0 auto;
+margin-top: 50px;
+padding: 20px;
+background-color: #D7C9EA;
+}
+*{
+margin: 0;
+}
