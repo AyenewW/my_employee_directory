@@ -1,9 +1,17 @@
 
-const SearchBar = (props) => {
+//import { useState } from "react"
+const SearchBar = () => {
+//const[employeeName, setEmployeeName] = useState('');
+
+// function handleEmployeeName (e){
+//     console.log('event',e.target.value)
+//     setEmployeeName(e.target.value)
+// }
+
 return ( 
 <div>
-<input style={styledsearchBar} type="text" placeholder="Search" />
-
+<input style={styledsearchBar} type="text" placeholder="Search"  />
+{/* //<p>The employee name is {employeeName}</p>onChange={handleEmployeeName} */}
 </div>
 )
 
@@ -20,5 +28,7 @@ margin: '2px 5px',
 
 }
 export default SearchBar;
+
+
 
 

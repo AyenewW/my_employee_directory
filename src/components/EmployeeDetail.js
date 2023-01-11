@@ -12,7 +12,7 @@ alt={EmployeeDetail.image}
 <div>
 
 <h4 style={{margin:"0"}}>{EmployeeDetail.name}</h4>
-<p style={{margin:0}}>{EmployeeDetail.title}</p>
+<p style={{margin:0}}>{EmployeeDetail.occupation}</p>
 </div>
 </div>
 <div>
@@ -20,14 +20,14 @@ alt={EmployeeDetail.image}
 <ul style={styledUI}>
 <li>
 <h3>Call Office</h3>
-<p>{EmployeeDetail.calloffice} </p>
+<p>{EmployeeDetail.callOffice} </p>
 </li>
 </ul>
 
 <ul style={styledUI}>
 <li>
 <h3>Call Mobile</h3>
-<p>{EmployeeDetail.callmobile}</p>
+<p>{EmployeeDetail.callMobile}</p>
 </li>
 </ul>
 

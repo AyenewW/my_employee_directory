@@ -7,7 +7,7 @@ return (
 <div style={styledEmployeePage}>
 <Header title="Employee" icon={faAngleLeft}/>
 <EmployeeDetail
-Employee={props.Employee}
+employees={props.employees}
 EmployeeDetail={props.EmployeeDetail}/>
 </div>
 );

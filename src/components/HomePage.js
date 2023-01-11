@@ -1,7 +1,7 @@
 import Header from "./Header";
 import EmployeeList from "./EmployeeList";
 import SearchBar from "./SearchBar";
-const HomePage = ({Employee,setEmployeeDetail}) => {
+const HomePage = ({employees,setEmployeeDetail}) => {
 return ( 
 <div style={styledHomePage}>
 <div style={styedHeaderLeft}>
@@ -9,7 +9,7 @@ return (
 </div>
 <SearchBar />
 <EmployeeList
-Employee={Employee} 
+employees={employees} 
 setEmployeeDetail={setEmployeeDetail}/>
 </div> 
 

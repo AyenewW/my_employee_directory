@@ -4,8 +4,40 @@ max-width: 1200px;
 margin: 0 auto;
 margin-top: 50px;
 padding: 20px;
-background-color: #D7C9EA;
+background-color: #c0d8dc;
 }
+
 *{
 margin: 0;
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 2px;
+    margin: 10px 0;
+    margin-left: 300px;
+    margin-right: 300px;
+    row-gap: 15px;
+  }
+  
+  input {
+    border-radius: 9px;
+    font-size: large;
+    padding: 5px;
+    width: "97%";
+    text-align: center;
+  }
+  
+  button {
+    
+    border-radius: 10px;
+    background-color: rgb(20, 227, 116);
+    color: white;
+    padding: 5px;
+    font-size: medium;
+  }
+  .StyledaddEmployees{
+    text-align: center;
+    
+  }
+  
