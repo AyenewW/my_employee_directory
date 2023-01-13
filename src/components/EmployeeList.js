@@ -2,7 +2,7 @@ import EmployeeListItem from "./EmployeeListItem";
 
 const EmployeeList = (props) => {
 console.log('check employees',props)
-//if (props.employees){
+if (props.employees){
 return props.employees.map(({image,name,occupation},index) => {
 return (
 <EmployeeListItem
@@ -14,5 +14,5 @@ onClick={()=> props.setEmployeeDetail(props.employees[index])} />
 )
 } )
 }
-//};
+};
 export default EmployeeList;

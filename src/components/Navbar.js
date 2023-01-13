@@ -1,17 +1,37 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-function Navbar() {
+
+
+function NavBar() {
   return (
-    <div className='navbar'>
-      <div className='navbar-logo'>
-        Ayenew
-      </div>
-      <ul className='navbar-menu'>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/ employee'>Employee</Link></li>
-        <li><Link to='/ add employee'>Add Employee</Link></li>
+    <div style={styledNavBar}>
+      <h3>Employees</h3>
+      <ul style={styledUl}>
+        <li style={{ cursor: 'pointer' }}><Link to='/'>Home</Link></li>
+        <li style={{ cursor: 'pointer' }}><Link to='/ Add-employee'>Add Employees</Link></li>
+        <li style={{ cursor: 'pointer' }}><Link to='/ Employees-List'>Employee List</Link></li>
+
       </ul>
     </div>
   )
 }
-export default Navbar;
+const styledNavBar = {
+  with: '100%',
+  gap: '10px',
+  display: 'flex',
+  alignItems: 'center',
+  height: '10vh',
+  justifyContent: 'space-between',
+  backgroundColor: '#00BCD4',
+  color: '#fff',
+  padding: '0 30px',
+
+}
+const styledUl = {
+  display: 'flex',
+  gap: '5px',
+  justifyContent: 'flex-end',
+  listStyle: 'none',
+
+}
+export default NavBar;

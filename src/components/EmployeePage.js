@@ -2,14 +2,13 @@ import EmployeeDetail from "./EmployeeDetail";
 import Header from "./Header";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
-const EmployeePage = (props) => {
+const EmployeePage = ({ props}) => {
   return (
     <div style={styledEmployeePage}>
       <Header title="Employee" icon={faAngleLeft} />
       <EmployeeDetail
-        employees={props.employees}
-        EmployeeDetail={props.EmployeeDetail}
-      />
+      employees={props.employees}
+       employeeDetail={props.employeeDetail}/>
     </div>
   );
 };

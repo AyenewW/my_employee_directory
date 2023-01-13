@@ -1,18 +1,18 @@
 import React from "react";
-const EmployeeDetail = ({EmployeeDetail}) => {
+const EmployeeDetail = ({employeeDetail}) => {
 return(
 <div style={styledEmployeeDetailpage}>
 <div style={styledEmployeeDetailItem}>
 <img 
 style={styledImage} 
-src={EmployeeDetail.image} 
-alt={EmployeeDetail.image} 
+src={employeeDetail.image} 
+alt={employeeDetail.image} 
 />
 
 <div>
 
-<h4 style={{margin:"0"}}>{EmployeeDetail.name}</h4>
-<p style={{margin:0}}>{EmployeeDetail.occupation}</p>
+<h4 style={{margin:"0"}}>{employeeDetail.name}</h4>
+<p style={{margin:0}}>{employeeDetail.occupation}</p>
 </div>
 </div>
 <div>
@@ -20,28 +20,28 @@ alt={EmployeeDetail.image}
 <ul style={styledUI}>
 <li>
 <h3>Call Office</h3>
-<p>{EmployeeDetail.callOffice} </p>
+<p>{employeeDetail.callOffice} </p>
 </li>
 </ul>
 
 <ul style={styledUI}>
 <li>
 <h3>Call Mobile</h3>
-<p>{EmployeeDetail.callMobile}</p>
+<p>{employeeDetail.callMobile}</p>
 </li>
 </ul>
 
 <ul style={styledUI}>
 <li>
 <h3>SMS</h3>
-<p>{EmployeeDetail.sms}</p>
+<p>{employeeDetail.sms}</p>
 </li>
 </ul>
 
 <ul style={styledUI}>
 <li>
 <h3>Email</h3>
-<p>{EmployeeDetail.email}</p>
+<p>{employeeDetail.email}</p>
 </li>
 </ul>
 </div>
