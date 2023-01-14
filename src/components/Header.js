@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 const Header =(props)=> {
 return (
 <div style={styledHeader}>
@@ -12,7 +11,6 @@ return (
 };
 
 const styledHeader={
-
 backgroundColor: '#fff', 
 padding: '7px 1px',
 margin: '2px 2px',
@@ -21,3 +19,4 @@ cursor: 'pointer',
 }
 
 export default Header;
+

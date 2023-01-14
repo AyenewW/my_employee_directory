@@ -36,29 +36,22 @@ const Form = () => {
           style={styledInput}
           type="text"
           placeholder="Name"
-          value="name"
+          name="name"
           onChange={handleChange}
         />
         <input
           style={styledInput}
           type="text"
           placeholder="Occupation"
-          value="occupation"
+          name="occupation"
           onChange={handleChange}
           
         />
         <input
           style={styledInput}
           type="text"
-          placeholder="url"
-          value="image"
-          onChange={handleChange}
-        />
-        <input
-          style={styledInput}
-          type="text"
           placeholder="Call Office"
-          value="callOffice"
+          name="callOffice"
           onChange={handleChange}
         />
         <input
@@ -66,23 +59,32 @@ const Form = () => {
           type="text"
           placeholder="Call Mobile"
           onChange={handleChange}
-          value="callMobile"
+          name="callMobile"
         />
         <input
           style={styledInput}
           type="text"
           placeholder="SMS"
-          value="sms"
+          name="sms"
           onChange={handleChange}
         />
         <input
           style={styledInput}
           type="text"
           placeholder="Email"
-          value="email"
+          name="email"
           onChange={handleChange}
         />
-        <button style={styledButton} type="button">Submit</button>
+        <input
+          style={styledInput}
+          type="text"
+          placeholder="url"
+          name="image"
+          onChange={handleChange}
+          />
+        <button style={styledButton} type="button">
+         Submit
+        </button>
       </form>
     </div>
   );

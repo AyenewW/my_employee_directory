@@ -28,7 +28,3 @@ margin: '2px 5px',
 
 }
 export default SearchBar;
-
-
-
-

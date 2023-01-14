@@ -78,4 +78,4 @@ borderBottom: '2px solid #F4F4F4',
 padding: '5px',
 listStyle: 'none',
 }
-export default EmployeeDetail;
+ export default EmployeeDetail;

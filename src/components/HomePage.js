@@ -12,7 +12,6 @@ return (
 employees={employees} 
 setEmployeeDetail={setEmployeeDetail}/>
 </div> 
-
 );
 };
 
@@ -20,8 +19,6 @@ const styledHomePage ={
 width:"50%", 
 fontFamily:"strong",
 }
-
-
 const styedHeaderLeft={
 width:'100%',
 

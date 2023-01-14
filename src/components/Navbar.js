@@ -1,20 +1,24 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
-
 function NavBar() {
   return (
     <div style={styledNavBar}>
       <h3>Employees</h3>
       <ul style={styledUl}>
-        <li style={{ cursor: 'pointer' }}><Link to='/'>Home</Link></li>
-        <li style={{ cursor: 'pointer' }}><Link to='/ Add-employee'>Add Employees</Link></li>
-        <li style={{ cursor: 'pointer' }}><Link to='/ Employees-List'>Employee List</Link></li>
-
+        <li style={{ cursor: 'pointer' }}>
+          <Link to="/">Home</Link>
+        </li>
+        <li style={{ cursor: 'pointer' }}>
+          <Link to="/Add-employees">Add Employees</Link>
+        </li>
+        <li style={{ cursor: 'pointer' }}>
+          <Link to="/Employees-list">Employees List</Link>
+        </li>
       </ul>
     </div>
   )
 }
+
 const styledNavBar = {
   with: '100%',
   gap: '10px',
@@ -35,3 +39,9 @@ const styledUl = {
 
 }
 export default NavBar;
+
+
+
+
+
+
