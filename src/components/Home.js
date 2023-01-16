@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -18,12 +19,17 @@ function Home() {
                 a former/new/prospective employee
                 a senior/experienced employee
             </p>
-            <div>
-                <div>Login</div>
-                <div>Register</div>
+            <div style={styledcontainer}>
+                <div><Link to ='/login'>Login</Link></div>
+                <div><Link to ='/register'>Register</Link></div>
             </div>
         </div>
     );
 
+}
+const styledcontainer={
+    collor:'red',
+    TextDecoration:'noon',
+    margin:'30px',
 }
 export default Home;

@@ -19,10 +19,12 @@ const Form = () => {
     setEmployeesData(updatedUserData);
   }
   function handleSubmit(event) {
-    //event.preventDefault(),
-      fetch("https://lit-dusk-21328.herokuapp.com/api/employees/allemployees", {
-        method: "POST",
-        body: JSON.stringify(employeesData),
+   // event.preventDefault(),
+    fetch("https://lit-dusk-21328.herokuapp.com/api/employees/addemployees", {
+        method: JSON.stringify(employeesData),
+      // fetch("https://lit-dusk-21328.herokuapp.com/api/employees/allemployees", {
+      //   method: "POST",
+      //   body: JSON.stringify(employeesData),
         headers: {
           "Content-Type": "application/json",
         },

@@ -5,8 +5,13 @@ import Home from './Components/Home'
 import Employees from './Components/Employees'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './Components/NavBar'
-
+import Register from './Components/Register'
+import Login from './Components/Login'
 function App() {
+  const [currentForm,setCurrentForm]  = useState('');
+  const toggleForm=(formName)=>{
+  setCurrentForm(formName);
+}
   const [employees, setEmployees] = useState([0])
   useEffect(() => {
     fetch(`https://lit-dusk-21328.herokuapp.com/api/employees/allemployees`)
@@ -29,9 +34,11 @@ function App() {
   })
   // console.log('employeeDetail', employeeDetail)
   return (
+    
     <BrowserRouter>
       <NavBar />
       <div className="App">
+      {currentForm ==='login' ? <Login onFormSwitch={toggleForm} />:<Register onFormSwitch={toggleForm}/>}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/add-Employees" element={<Form />} />

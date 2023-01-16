@@ -1,7 +1,7 @@
 {
   "name": "my_employee_directory",
   "version": "0.1.0",
-  "homepage": "https://AyenewW.github.io/my_employee_directory",
+  "homepage": "https://AyenewW.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
