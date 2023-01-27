@@ -1,41 +1,61 @@
-.App {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 20px;
-    background-image: linear-gradient(79deg, #0cee2e, #d7ee0b 48%, #ed0c40 );
-
-}
-
 * {
     margin: 0;
-}
-
+    
+  }
  
-
-label {
+  .container {
+    font-family: Georgia;
+    max-width: 900px;
+    margin: 6rem auto;
+    height: 100vh;
+    position: relative;
+    background-image: url(assets/image/download.jpg)
+  }
+ 
+ 
+  .authformcontainer,
+  .loginform,
+  .registerform {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  @media screen and (min-width: 600px) {}
+ 
+  .authformcontainer {
+    padding: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 4rem;
+    background-image: url(assets/image/bahirdar.jpg)
+  }
+ 
+  label {
     text-align: left;
     padding: 0.25rem 0;
-}
-
-input {
+  }
+ 
+  input {
     margin: 0.5rem 0;
     padding: 1rem;
     border: none;
     border-radius: 10px;
-}
-
-button {
+  }
+ 
+  button {
     border: none;
-    background-color: rgb(0, 255, 102);
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
-    
-}
-
-.link-btn {
-    background: none;
-    color: white;
+    color: #0fe013;
+  }
+ 
+  .link-btn {
+ 
+    width: 95%;
+    background-color: none;
+    color: #0531f6;
     text-decoration: underline;
-}
+ 
+  }
