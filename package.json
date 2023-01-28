@@ -1,7 +1,7 @@
 {
-  "name": "employyes_app",
+  "name": "employyes_list_app",
   "version": "0.1.0",
-  "homepage": "https://AyenewW.github.io/employyes_app",
+  "homepage": "https://AyenewW.github.io/employyes_list_app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
