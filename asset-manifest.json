@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.85f11972.css",
-    "main.js": "/static/js/main.c9bc0d20.js",
-    "static/js/787.079bda70.chunk.js": "/static/js/787.079bda70.chunk.js",
-    "index.html": "/index.html",
-    "main.85f11972.css.map": "/static/css/main.85f11972.css.map",
-    "main.c9bc0d20.js.map": "/static/js/main.c9bc0d20.js.map",
-    "787.079bda70.chunk.js.map": "/static/js/787.079bda70.chunk.js.map"
+    "main.css": "/employyes_list_app/static/css/main.49c66eff.css",
+    "main.js": "/employyes_list_app/static/js/main.c2f2bd7f.js",
+    "static/js/787.4488b3f2.chunk.js": "/employyes_list_app/static/js/787.4488b3f2.chunk.js",
+    "static/media/bahirdar.jpg": "/employyes_list_app/static/media/bahirdar.49f3c32e3285f8dba51c.jpg",
+    "static/media/download.jpg": "/employyes_list_app/static/media/download.c3b4c8cc4a388863e787.jpg",
+    "index.html": "/employyes_list_app/index.html",
+    "main.49c66eff.css.map": "/employyes_list_app/static/css/main.49c66eff.css.map",
+    "main.c2f2bd7f.js.map": "/employyes_list_app/static/js/main.c2f2bd7f.js.map",
+    "787.4488b3f2.chunk.js.map": "/employyes_list_app/static/js/787.4488b3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85f11972.css",
-    "static/js/main.c9bc0d20.js"
+    "static/css/main.49c66eff.css",
+    "static/js/main.c2f2bd7f.js"
   ]
 }
