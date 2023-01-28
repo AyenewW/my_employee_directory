@@ -7,7 +7,7 @@ const StyledSearch = styled.div`
 display:flex;
 align-items:center;
 `
-const SearchBar = (props) => {
+const SearchBar = () => {
   return (
     <StyledSearch>
       <input
