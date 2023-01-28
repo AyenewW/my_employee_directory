@@ -12,7 +12,7 @@ import { useContext } from 'react'
 
 function NavBar() {
   const navItems = [
-    { item: 'Home', to: '/employyes_app' },
+    { item: 'Home', to: '/employyes_list_app' },
     { item: 'Add-Employees', to: '/add-employees' },
     { item: 'EmployeesList', to: '/employees-list' },
   ]
@@ -38,7 +38,7 @@ function NavBar() {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {!isLoggedIn ? (
-              <Link to="/employyes_app">
+              <Link to="/employyes_list_app">
                 <Button sx={{ color: '#fff' }}>Home</Button>
               </Link>
             ) : (

@@ -16,7 +16,7 @@ return (
       <NavBar />
       <div className="container">
         <Routes>
-          <Route path="/employyes_app" element={<Home />}/>
+          <Route path="/employyes_list_app" element={<Home />}/>
           <Route path="/add-Employees" element={<Form />} />
           <Route path="/employees-list" element={<Employees/>}/>
         </Routes>
